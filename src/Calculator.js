@@ -30,7 +30,7 @@ export default function Calculator() {
   const [numberInput2, setNumberInput2] = useState(0);
   const [result, setResult] = useState(0);
   const operatorText = [,"บวก", "ลบ", "คูณ", "หาร"];
-  useEffect(() => {//จะถูกเรียกเมื้อมีการกดปุ่ม
+  useEffect(() => {
     switch (operator) {
       case 1:
         // 1 คือ บวก
